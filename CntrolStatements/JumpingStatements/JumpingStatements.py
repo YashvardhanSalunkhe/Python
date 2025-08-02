@@ -47,7 +47,7 @@
 #         break
 
 # Q6. Print even numbers between 1 and 50. Stop the loop if the number is greater than 40.
-i=0
+# i=0
 # for i in range(i,50):
 #     if i%2==0:
 #         print(i)
