@@ -94,12 +94,73 @@
 # even_check(nums)
 
 # Q11)Write a function to calculate the sum of digits of a number.
-num1=int(input("Enter the number:"))
-def sum_digit(num1):
-    sum1=0
-    for i in num1:
-        digit=i%10
-        sum1=sum1+digit
-        num1=num1//10
-    print("sum of the digits:",sum1)
-sum_digit(num1)
+# num1=int(input("Enter the number:"))
+# def sum_digit(num1):
+#     i=0
+#     sum1=0
+#     while i < num1:
+#         digit=num1%10
+#         sum1=sum1+digit
+#         num1=num1//10
+#     print("sum of the digits:",sum1)
+# sum_digit(num1)
+
+# Q12)Write a function that accepts a string and checks whether it is a palindrome.
+# str1=str(input("Enter a string:"))
+# def palindrome(str1):
+#     pall=str1[::-1]
+#     if str1==pall:
+#         print(str1,"is a palindrome.")
+#     else:
+#         print("Not a palindrome.")
+# palindrome(str1)
+
+# Q13)Write a function to generate and return the Fibonacci series up to n terms.
+# def fibonacci(n):
+#     a,b=0,1
+#     count=1
+#     while count<=n:
+#         print(a)
+#         temp=a+b
+#         a=b
+#         b=temp
+#         count+=1
+#         # print(count)
+# n=int(input("Enter a number:"))
+# fibonacci(n)
+
+# Q14)Write a function that accepts a list and removes all the duplicate elements.
+
+# list1=list(map(int,input("Enter  the elements  with space:").split()))
+# def remove_duplicates(list1):
+#     unique=[]
+#     for  i in list1:
+#         if  i not in unique:
+#             unique.append(i)
+#     print(sorted(unique))
+# remove_duplicates(list1)
+
+
+# Q15)Write a function to create a simple calculator that performs addition, subtraction, multiplication
+# and division based on user choice.
+# print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+# choice=int(input("Enter your choice:"))
+# def calculator(choice):
+#     if  choice==1:
+#         n1=int(input("Enter a number"))
+#         n2=int(input("Enter a number"))
+#         print("Addittion is :",n1+n2)
+#     elif choice==2:
+#         n1=int(input("Enter a number"))
+#         n2=int(input("Enter a number"))
+#         print("Subtraction is :",n1-n2)
+#     elif choice==3:
+#         n1=int(input("Enter a number"))
+#         n2=int(input("Enter a number"))
+#         print("Multiplication is :",n1*n2)
+#     else:
+#         n1=int(input("Enter a number"))
+#         n2=int(input("Enter a number"))
+#         print("Division is :",n1/n2)
+
+# calculator(choice)

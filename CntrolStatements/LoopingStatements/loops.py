@@ -26,7 +26,7 @@
 # # Q5. Write a program to print first 10 integers and their squares using while loop.
 # n=1
 # while n>=0 and n <= 10:
-#     print(F"sSquare of {n} is {n**2}")
+#     print(F"Square of {n} is {n**2}")
 #     n+=1
 
 # Q6. Write while loop statement to print the following series: 10, 20, 30 … … 300
